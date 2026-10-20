@@ -12,6 +12,7 @@ public class Car {
         this(brand, model, 0, 0.0);
     }
 
+
     public Car(String brand, String model, int productionYear, double mileage) {
         this.brand = brand;
         this.model = model;
