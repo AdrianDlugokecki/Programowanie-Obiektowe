@@ -6,7 +6,6 @@ public class Book {
     public Book() {
         this("null", "null", 0);
     }
-
     public Book(String tittle, String author) {
         this(tittle, author, 0);
     }
