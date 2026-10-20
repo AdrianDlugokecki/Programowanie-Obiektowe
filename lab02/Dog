@@ -1,0 +1,30 @@
+public class Dog {
+    String name;
+    String breed;
+    int age;
+
+    public Dog(String name, String breed, int age) {
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+    }
+
+    public void bark() {
+        System.out.println("Wow Wow");
+    }
+
+    public void showInformation() {
+        System.out.println("Pies: " + name + ", Rasa: " + breed + ", Wiek: " + age);
+    }
+
+    public static void main(String[] args) {
+        Dog dog1 = new Dog("Bruno", "Kundel", 3);
+        Dog dog2 = new Dog("Ares", "Owczarek", 5);
+
+        dog1.bark();
+        dog1.showInformation();
+
+        dog2.bark();
+        dog2.showInformation();
+    }
+}
