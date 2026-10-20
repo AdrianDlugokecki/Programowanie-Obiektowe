@@ -1,0 +1,26 @@
+public class Book {
+    String tittle;
+    String author;
+    int publicationYear;
+
+    public Book() {
+        this("null", "null", 0);
+    }
+
+    public Book(String tittle, String author) {
+        this(tittle, author, 0);
+    }
+    public Book(String tittle, String author, int publicationYear) {
+        this.tittle = tittle;
+        this.author = author;
+        this.publicationYear = publicationYear;
+    }
+    public static void main(String[] args) {
+        Book k1 = new Book();
+        Book k2 = new Book("test", "test");
+        Book k3 = new Book("test", "test", 1986);
+        System.out.println(k1.tittle + " " + k1.author + " " + k1.publicationYear);
+        System.out.println(k2.tittle + " " + k2.author + " " + k2.publicationYear);
+        System.out.println(k3.tittle + " " + k3.author + " " + k3.publicationYear);
+    }
+}
