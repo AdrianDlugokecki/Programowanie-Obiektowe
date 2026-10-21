@@ -1,0 +1,7 @@
+1. instancyjny bo zmiana zmieniłaby nazwe wszystkim studentom
+2. statyczny bo jest to informacja dla calej grupy
+3. statyczny bo liczba pi zawsze jest taka sama
+4.instanycjny bo kazde konto ma swoj balans
+5.statyczny bo vat bedzie dla kazdego taki sam
+6.instanycjny bo przebieg się zmienia przy jeżdzie dla każdego samochodu osobno
+7. statyczny bo maksymalna wartość nie powinna się zwiekszac 
