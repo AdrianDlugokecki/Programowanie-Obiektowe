@@ -1,0 +1,10 @@
+1. Błędy kompilacji - statyczna metoda showuser probuje sie odwolac do login i haslo ktore sa instancjami
+
+2. Problemy projektowe - brak hermetyzacji
+
+3. Pola instancyjne - Pola instancyjne: login, password, age 
+pola statyczne - brak
+4. Hermetyzacja - wszystkie pola powinny być private i powinny dostawać dostęp getterami i setterami
+
+
+5. Hasło a zwykły getter - zamiast gettera powinno dodawać się metody weryfikujacy ze względow bezpieczenstwa
